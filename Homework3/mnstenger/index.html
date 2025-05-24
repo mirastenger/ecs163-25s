@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<link href="styles.css" rel="stylesheet">
+		<title>D3 Example</title>
+	</head>
+	<body>
+		<div id="left">
+			<h1 id="title">Cosmetics Dashboard</h1>
+			<svg id="context"></svg>
+		</div>
+		<!--I referenced the following tutorial while designing these buttons:
+		 https://objectcomputing.com/resources/publications/sett/august-2020-mastering-d3-basics-->
+		<div id="buttons">
+			<button id = "navButton">Navigate</button>
+			<button id = "brushButton">Brush</button>
+		</div>
+		<div id="right">
+			<svg id="focus1"></svg>
+			<button id = "sortButton">Sort</button>
+			<svg id="focus2"></svg>
+		</div>
+
+		<script src="https://d3js.org/d3.v6.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
